@@ -1,5 +1,6 @@
 import torch
-from torchsearchsorted import searchsorted
+#from torchsearchsorted import searchsorted
+from torch import searchsorted
 
 __all__ = ['render_rays']
 
